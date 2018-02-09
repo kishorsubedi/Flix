@@ -28,4 +28,5 @@ Please list two areas of the assignment you'd like to discuss further with your 
 Making asynchonous network requests manually.
 
 Gif walkthrough:
-https://i.imgur.com/X93G1la.mp4
+
+https://i.imgur.com/vB2TQTJ.gif
