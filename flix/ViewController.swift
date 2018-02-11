@@ -31,7 +31,6 @@ class ViewController: UIViewController, UITableViewDataSource{
         
         fetchmovies()
         
-        
             }
     
     func didPullToRefresh(_ refreshcontrol: UIRefreshControl )
