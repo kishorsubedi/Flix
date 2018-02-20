@@ -14,7 +14,6 @@ class SuperheroViewController: UIViewController,UICollectionViewDataSource {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -21,6 +21,9 @@ class ViewController: UIViewController, UITableViewDataSource{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 50
+        
        refreshcontrol = UIRefreshControl()
         refreshcontrol.addTarget(self, action: #selector(ViewController.didPullToRefresh(_:)), for: .valueChanged)
         
