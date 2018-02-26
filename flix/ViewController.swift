@@ -38,6 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource{
     
     func didPullToRefresh(_ refreshcontrol: UIRefreshControl )
     {
+        activityIndicator.startAnimating()
         fetchmovies()
     }
     
